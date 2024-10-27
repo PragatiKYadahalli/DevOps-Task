@@ -1,1 +1,24 @@
-Hello this is master branch@@@@@@@@@@@@@@@@@@
+Hello this is master branch
+
+The commands used to do this task are:
+
+sudo apt install git
+git version
+git config --global user.name "ABC"
+git config --global user.email "ABC@gmail.com"
+git config --list
+mkdir dir1
+cd dir1
+git init
+echo " Hello this is master branch ....." > Masterbranch
+echo " Hello this is Staging branch....." > Stagingbranch
+git status
+git add .
+git commit -m "This is last commit"
+git log
+git show "commit-ID"
+git remote add origin "Repo URL"
+git branch
+git branch Staging
+git checkout Staging
+git push origin Staging
